@@ -1,0 +1,65 @@
+site_name: EricKuok-lab
+site_url: https://erickuok.org/home
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  #font: 
+    #text: 
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+ 
+  language: en
+  features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.path
+  - navigation.top
+# - navigation.tabs
+
+nav:
+    - Home: index.md
+    - Getting Started: getting_started.md
+    - Reference: reference.md
+    - FAQ:
+        - General Questions: faq/general.md
+        - Technical Questions: faq/technical.md
+
+
+extra:
+    alternate:
+    - name: 中文（大陆简体）
+      link: /zh/ 
+      lang: zh
+    - name: English
+      link: /en/ 
+      lang: en
+    consent:
+      title: Cookie consent
+      description: >- 
+        We use cookies to recognize your repeated visits and preferences, as well
+        as to measure the effectiveness of our documentation and whether users
+        find what they're searching for. With your consent, you're helping us to
+        make our documentation better.
+
+
