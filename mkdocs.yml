@@ -1,6 +1,6 @@
-site_name: EricKuok-lab
-site_url: https://erickuok.org/home
-repo_url: https://github.com/StyoKuok/StyoKuok_site
+site_name: Styolab
+site_url: https://StyoKuok.github.io
+repo_url: https://github.com/StyoKuok/StyoKuok.github.io
 repo_name: StyoKuok/StyoKuok_site
 theme:
   name: material
