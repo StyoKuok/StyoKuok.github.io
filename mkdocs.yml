@@ -1,5 +1,7 @@
 site_name: EricKuok-lab
 site_url: https://erickuok.org/home
+repo_url: https://github.com/StyoKuok/StyoKuok_site
+repo_name: StyoKuok/StyoKuok_site
 theme:
   name: material
   palette:
@@ -28,7 +30,8 @@ theme:
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
- 
+    repo: fontawesome/brands/git-alt
+
   language: en
   features:
   - navigation.instant
@@ -44,7 +47,11 @@ nav:
     - FAQ:
         - General Questions: faq/general.md
         - Technical Questions: faq/technical.md
-
+    - Notes:
+        - web: 
+          - HTML: web/html.md
+          - css: web/css.md
+          - Javascript: web/js.md
 
 extra:
     alternate:
