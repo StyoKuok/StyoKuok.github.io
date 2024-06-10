@@ -1,7 +1,7 @@
 site_name: StyoLab
 site_url: https://StyoKuok.github.io
 repo_url: https://github.com/StyoKuok/StyoKuok.github.io
-repo_name: StyoKuok/StyoKuok_site
+repo_name: StyoKuok/StyoKuok.github.io
 theme:
   name: material
   palette:
