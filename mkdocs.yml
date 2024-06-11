@@ -4,6 +4,7 @@ repo_url: https://github.com/StyoKuok/StyoKuok.github.io
 repo_name: StyoKuok/StyoKuok.github.io
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
 
     # Palette toggle for automatic mode
