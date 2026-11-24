@@ -1,0 +1,335 @@
+{
+  "updated": "2026-11-21",
+  "readouts": [
+    {
+      "input": "RGB history",
+      "origins": 32,
+      "family": "bilinear",
+      "rmse": 0.3949389932052498,
+      "centered": 0.32224132145011153,
+      "utility": 0.2578125
+    },
+    {
+      "input": "RGB history",
+      "origins": 32,
+      "family": "RBF",
+      "rmse": 0.1770995009209298,
+      "centered": 0.1133996777293018,
+      "utility": 0.32682291666666663
+    },
+    {
+      "input": "RGB history",
+      "origins": 64,
+      "family": "Original checkpoint",
+      "rmse": 0.42513858249363273,
+      "centered": 0.3481287811812189,
+      "utility": 0.2578125
+    },
+    {
+      "input": "RGB history",
+      "origins": 64,
+      "family": "bilinear",
+      "rmse": 0.4098148276589265,
+      "centered": 0.3361448350948209,
+      "utility": 0.2578125
+    },
+    {
+      "input": "RGB history",
+      "origins": 64,
+      "family": "RBF",
+      "rmse": 0.17641563355735118,
+      "centered": 0.11279051298006254,
+      "utility": 0.3528645833333333
+    },
+    {
+      "input": "Action only",
+      "origins": 32,
+      "family": "bilinear",
+      "rmse": 0.32784024458160765,
+      "centered": 0.24569163690878146,
+      "utility": 0.2578125
+    },
+    {
+      "input": "Action only",
+      "origins": 32,
+      "family": "RBF",
+      "rmse": 0.223331735587814,
+      "centered": 0.13265262995229496,
+      "utility": 0.7421875
+    },
+    {
+      "input": "Action only",
+      "origins": 64,
+      "family": "Original checkpoint",
+      "rmse": 0.3152960381913049,
+      "centered": 0.2306181996998744,
+      "utility": 0.2578125
+    },
+    {
+      "input": "Action only",
+      "origins": 64,
+      "family": "bilinear",
+      "rmse": 0.3169269156476223,
+      "centered": 0.23153956287611704,
+      "utility": 0.2578125
+    },
+    {
+      "input": "Action only",
+      "origins": 64,
+      "family": "RBF",
+      "rmse": 0.2228978138864654,
+      "centered": 0.1303732765103369,
+      "utility": 0.7421875
+    }
+  ],
+  "preaction": {
+    "response_mae": 0.1737257090938371,
+    "response_rmse": 0.19471765479715275,
+    "response_sup_error": 0.28704783041194637,
+    "response_offset_error": 0.15729863912791572,
+    "centered_shape_rmse": 0.1064813309307783,
+    "normalized_mae": 0.9269017946471524,
+    "normalized_rmse": 1.0192694564400737,
+    "normalized_sup_error": 1.5250005699342029,
+    "pearson_action_profile": 0.15560536311728249,
+    "spearman_action_profile": 0.12304790839513147,
+    "preferred_action_accuracy": 0.4453125,
+    "normalized_decision_utility_R": 0.37890625,
+    "raw_regret": 0.13885862776100022,
+    "top_two_margin": 0.21119020650127035,
+    "margin_certificate": 0.0
+  },
+  "matched": [
+    {
+      "metric": "response_rmse",
+      "RGB_equal_cluster_mean": 0.18407098740640307,
+      "action_only_equal_cluster_mean": 0.21818672116648818,
+      "RGB_minus_action_only": -0.03411573376008514,
+      "ci95_low": -0.04190528094738867,
+      "ci95_high": -0.02636113107960928,
+      "physical_clusters": 128,
+      "positive_spread_branch_camera_units": 418
+    },
+    {
+      "metric": "centered_shape_rmse",
+      "RGB_equal_cluster_mean": 0.12205749097499469,
+      "action_only_equal_cluster_mean": 0.133973702763405,
+      "RGB_minus_action_only": -0.011916211788410309,
+      "ci95_low": -0.01630363200821096,
+      "ci95_high": -0.007601724313537369,
+      "physical_clusters": 128,
+      "positive_spread_branch_camera_units": 418
+    },
+    {
+      "metric": "normalized_decision_utility_R",
+      "RGB_equal_cluster_mean": 0.3528645833333333,
+      "action_only_equal_cluster_mean": 0.7421875,
+      "RGB_minus_action_only": -0.3893229166666667,
+      "ci95_low": -0.49088541666666674,
+      "ci95_high": -0.28515625,
+      "physical_clusters": 128,
+      "positive_spread_branch_camera_units": 418
+    }
+  ],
+  "matched_units": 418,
+  "matched_contexts": 128,
+  "benchmark": [
+    {
+      "task": "PassWater",
+      "input": "RGB history",
+      "target": 0.6763092978062879,
+      "rmse": 0.42513858249363273,
+      "centered": 0.3481287811812189,
+      "accuracy": 0.390625,
+      "utility": 0.2578125
+    },
+    {
+      "task": "PassWater",
+      "input": "Action only",
+      "target": 0.0,
+      "rmse": 0.3152960381913049,
+      "centered": 0.2306181996998744,
+      "accuracy": 0.390625,
+      "utility": 0.2578125
+    },
+    {
+      "task": "PourWaterAmount",
+      "input": "RGB history",
+      "target": 0.27561041134026626,
+      "rmse": 0.23963224060351956,
+      "centered": 0.06574726154813694,
+      "accuracy": 0.7727864583333335,
+      "utility": 0.480937052523458
+    },
+    {
+      "task": "PourWaterAmount",
+      "input": "Action only",
+      "target": 0.0,
+      "rmse": 0.22008899403643578,
+      "centered": 0.045873369701502076,
+      "accuracy": 0.875,
+      "utility": 0.7347770629265175
+    },
+    {
+      "task": "PourWaterAmount",
+      "input": "Physical summaries",
+      "target": 0.8667099979810137,
+      "rmse": 0.14011461433443592,
+      "centered": 0.07013478006548081,
+      "accuracy": 0.79296875,
+      "utility": 0.545933655949635
+    },
+    {
+      "task": "PassWater",
+      "input": "ResNet-18 RGB",
+      "target": 0.6946712733480614,
+      "rmse": 0.37057681024440725,
+      "centered": 0.30532047408254204,
+      "accuracy": 0.390625,
+      "utility": 0.2578125
+    },
+    {
+      "task": "PourWaterAmount",
+      "input": "ResNet-18 RGB",
+      "target": 0.27693708906332787,
+      "rmse": 0.24061113830806208,
+      "centered": 0.06920275380890586,
+      "accuracy": 0.7467447916666666,
+      "utility": 0.422470437029668
+    }
+  ],
+  "alias": {
+    "final": {
+      "best_shared_action_mean_raw_regret_floor": {
+        "context_bootstrap_ci95": [
+          4.6502976190476025e-05,
+          0.001088988729369588
+        ],
+        "estimate": 0.00047684350968042353
+      },
+      "context_count": 128,
+      "first_argmax_crossing_contexts": 6,
+      "mean_per_case_rmse_floor_mean_sqrt_mse": {
+        "context_bootstrap_ci95": [
+          0.004286319163664577,
+          0.01167691270062474
+        ],
+        "estimate": 0.0076143474061026815
+      },
+      "mean_response_l1_distance": 0.012702695444167102,
+      "no_common_true_maximizer_contexts": 4,
+      "pooled_mse_floor": {
+        "context_bootstrap_ci95": [
+          0.00014340087766640046,
+          0.001014472087753579
+        ],
+        "estimate": 0.0005147625963965541
+      },
+      "pooled_rmse_floor_sqrt_mean_mse": {
+        "context_bootstrap_ci95": [
+          0.011975010549255354,
+          0.031850778431283824
+        ],
+        "estimate": 0.022688380206540838
+      },
+      "positive_decision_floor_contexts": 4,
+      "positive_mse_floor_contexts": 51
+    },
+    "all": {
+      "best_shared_action_mean_raw_regret_floor": {
+        "context_bootstrap_ci95": [
+          9.615459139384922e-05,
+          0.0014256776087105984
+        ],
+        "estimate": 0.0006155923781351027
+      },
+      "context_count": 256,
+      "first_argmax_crossing_contexts": 14,
+      "mean_per_case_rmse_floor_mean_sqrt_mse": {
+        "context_bootstrap_ci95": [
+          0.005491471063565306,
+          0.010909014244516785
+        ],
+        "estimate": 0.007995841234862234
+      },
+      "mean_response_l1_distance": 0.012855157781363511,
+      "no_common_true_maximizer_contexts": 7,
+      "pooled_mse_floor": {
+        "context_bootstrap_ci95": [
+          0.0002824372262983845,
+          0.0008947051280335935
+        ],
+        "estimate": 0.0005574488038622013
+      },
+      "pooled_rmse_floor_sqrt_mean_mse": {
+        "context_bootstrap_ci95": [
+          0.016805868718140538,
+          0.02991162195526504
+        ],
+        "estimate": 0.02361035374284344
+      },
+      "positive_decision_floor_contexts": 7,
+      "positive_mse_floor_contexts": 97
+    },
+    "fitted_mse": 0.07895898908009825
+  },
+  "ties": {
+    "action_only": {
+      "all": 0.875,
+      "positive": 0.6764705882352942
+    },
+    "ordered_rgb": {
+      "all": 0.7727864583333335,
+      "positive": 0.42156862745098034
+    },
+    "supplied_physical_variables": {
+      "all": 0.79296875,
+      "positive": 0.4738562091503267
+    }
+  },
+  "sources": [
+    {
+      "file": "note/aistats_rebuttal_20261119/no_training_supplement/cpu_readout/summary.csv",
+      "sha256": "1a256952b23605747af5ccf3388cd6f9a04742da85c1c6417bad55794811bca6"
+    },
+    {
+      "file": "note/aistats_rebuttal_20261119/no_training_supplement/metrics_audit/cpu_positive_subset/positive_subset_results.json",
+      "sha256": "abaf225615ea728dec3622a10f9342be6658faffa0316c838fc38ace23ee7a2c"
+    },
+    {
+      "file": "note/aistats_rebuttal_20261119/no_training_supplement/metrics_audit/alias_bound/alias_bound_results.json",
+      "sha256": "0460d6266bd6598b269109b9533ac7b28d763e23a013ab071505c514995c2da7"
+    },
+    {
+      "file": "note/aistats_rebuttal_20261119/no_training_supplement/metrics_audit/decisive_case_metrics.json",
+      "sha256": "e4a3635ec6f36a13e4c549b9d50770525132489782e0a40eee7dcc2d79230089"
+    },
+    {
+      "file": "note/aistats_rebuttal_20261119/no_training_supplement/cpu_readout/rich_preaction_control/summary.csv",
+      "sha256": "78ea9c8e13d0b217927670dfdb1c1c6af9d6c17d358798f7ebc4a77921fb04dd"
+    },
+    {
+      "file": "artifacts/fluid_world_state/aistats_response_vectors_v1/response_vector_report.json",
+      "sha256": "3c0a5223b26c3a3bcc6d19d1a9afda8926912855802670f8abb27b6c2b28c0aa"
+    },
+    {
+      "file": "artifacts/fluid_world_state/aistats_cross_task_replication_v1/response_vectors/response_vector_report.json",
+      "sha256": "b3e783045c734123deb38897d0445e25bfac1d519edb5455cd225390a9df6373"
+    },
+    {
+      "file": "artifacts/fluid_world_state/aistats_0918_followups_v1/passwater_resnet18/response_vectors/response_vector_report.json",
+      "sha256": "10670db5b2b0f6b617c40f786d9f55dd28d7e17ccdcb7a6ee05d4465292831cf"
+    },
+    {
+      "file": "artifacts/fluid_world_state/aistats_0918_followups_v1/pourwateramount_resnet18/response_vectors/response_vector_report.json",
+      "sha256": "b2ef578612f685072a3a0474033ca775d8962aba8e8a329a0ac2af30e14d85a8"
+    }
+  ],
+  "notes": [
+    "PassWater's legacy supplied-physical row is withdrawn because its input included terminal material partition.",
+    "CPU analyses refit readouts on frozen saved encoders; 32/64 origins are readout-data sizes, not encoder training sweeps.",
+    "Matched comparison uses the same positive-spread units and equal physical-context weighting for all metrics.",
+    "Bootstrap intervals condition on fitted models and selected hyperparameters.",
+    "PourWaterAmount raw remote feature arrays were not reread; provenance uses retained outputs, manifests, collection checks and source code."
+  ]
+}

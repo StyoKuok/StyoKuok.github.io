@@ -1,0 +1,22 @@
+{
+  "title": "Beyond State Prediction",
+  "tagline": "A visual explanation of why describing a physical scene is different from predicting what each action will cause.",
+  "sections": [
+    {
+      "id": "alias-control",
+      "figures": [
+        {"task":"PassWater","aliasVideo":"passwater_hidden_motion_history","refVideo":"passwater_reference_history","utility":"./assets/passwater_utility_table.csv","visualDistance":0.0152,"velocityDistance":0.3746,"preferredActionCrossing":0},
+        {"task":"PourWaterAmount","aliasVideo":null,"refVideo":"pouring_reference_history","utility":"./assets/pouring_utility_table.csv","visualDistance":0,"velocityDistance":0.4828,"preferredActionCrossing":1,"note":"The paired histories are pixel-identical; the changed variable is hidden motion."}
+      ]
+    },
+    {
+      "id": "response-table",
+      "figures": [
+        {"tag":"high_spread","video":"high_consequence_spread_history","legal":"./assets/high_consequence_legal.png","queryTopdown":"./assets/high_consequence_query_topdown.png","table":"./assets/high_consequence_response_table.csv"},
+        {"tag":"near_flat","video":"near_flat_spread_history","legal":"./assets/near_flat_legal.png","table":"./assets/near_flat_response_table.csv"}
+      ]
+    },
+    {"id":"measurement-comparison"},
+    {"id":"action-support"}
+  ]
+}
