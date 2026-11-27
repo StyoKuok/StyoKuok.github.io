@@ -1,0 +1,55 @@
+{
+  "origin": "configuration-01",
+  "arm": "state_0",
+  "camera": "cam_2d",
+  "seed": 20260907,
+  "actions": [
+    "pw_04_early_brake",
+    "pw_05_late_brake",
+    "pw_06_two_pulse",
+    "pw_07_mid_coast"
+  ],
+  "truth": [
+    -0.27843137254901956,
+    -0.27843137254901956,
+    -0.19999999999999996,
+    -0.27843137254901956
+  ],
+  "GRU": [
+    -0.31603696936516656,
+    -0.27826546044584144,
+    -0.28693181513775057,
+    -0.3177191752563196
+  ],
+  "action_only": [
+    -0.40857353346509007,
+    -0.36821747523189546,
+    -0.27807861139275036,
+    -0.29088889086811376
+  ],
+  "GRU_RMSE": 0.051271045345878126,
+  "action_only_RMSE": 0.08838832728728244,
+  "GRU_regret": 0.0784313725490196,
+  "action_only_regret": 0.0,
+  "records": [
+    "PassWater::reference::cam_2d::passwater-qualification-3069::low_counter_phase::pw_04_early_brake::q05",
+    "PassWater::reference::cam_2d::passwater-qualification-3069::low_counter_phase::pw_05_late_brake::q05",
+    "PassWater::reference::cam_2d::passwater-qualification-3069::low_counter_phase::pw_06_two_pulse::q05",
+    "PassWater::reference::cam_2d::passwater-qualification-3069::low_counter_phase::pw_07_mid_coast::q05"
+  ],
+  "matching_atlas_records": [
+    [
+      "passwater-sealed_test-1509",
+      "reference",
+      "248528da7254cc900f22b890233f91d3eb36bb666c6653ba86a49915d78d828a"
+    ],
+    [
+      "passwater-sealed_test-6413",
+      "reference",
+      "248528da7254cc900f22b890233f91d3eb36bb666c6653ba86a49915d78d828a"
+    ]
+  ],
+  "source_file": "passwater_equal_configuration_predictions.npz",
+  "source_sha256": "13996053095295d269cb5024ee6c2624fcde3b5cc41dfcee827ad5d58c368038",
+  "image": "assets/context-atlas/passwater-sealed_test-1509/reference-boundary-1.webp"
+}

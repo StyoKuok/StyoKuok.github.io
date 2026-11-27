@@ -1,0 +1,38 @@
+{
+  "duration_seconds": 18,
+  "frame_rate": 30,
+  "chapter_seconds": [
+    6,
+    4,
+    4,
+    4
+  ],
+  "source_motion_frame_rate": 12.5,
+  "source": "Archived pre-action RGB arrays; no generated simulation footage",
+  "population_data": "public/data/current_study.json \u2192 passwater.results \u2192 four_action",
+  "displayed_records": 32,
+  "outputs": {
+    "research-demo.mp4": {
+      "sha256": "d22419066c59249af3ee3bf3decb1ab5abc892e59cd6a90aca4cb57c9ee783b9",
+      "bytes": 746640
+    },
+    "research-demo-mobile.mp4": {
+      "sha256": "7865b701e976ba5028ce5d5e54cc4daef43edea268ff65bfa937054ed0c58207",
+      "bytes": 598130
+    }
+  },
+  "title_background_outputs": {
+    "title-background.mp4": {
+      "duration_seconds": 3,
+      "sha256": "9cd1a48a5b7c3243a49e6a6119717cf3639235de08891fe6827a1e142bcc3ff0",
+      "bytes": 304307
+    },
+    "title-background-mobile.mp4": {
+      "duration_seconds": 3,
+      "sha256": "39c514cdf618e1896d89abf2796779c78d918d5fa1f07a9bbeef33cac90d0600",
+      "bytes": 246624
+    }
+  },
+  "story": "one paired experiment with complete measured alternatives \u2192 repeat across cases \u2192 matched prediction/choice assessment \u2192 ranking reversal",
+  "illustrative_physical_case": "pourwateramount-sealed_test-0057"
+}
